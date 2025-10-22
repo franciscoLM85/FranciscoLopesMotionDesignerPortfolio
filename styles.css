@@ -1,0 +1,38 @@
+:root{
+    /* CORES */
+    --cor-de-fundo:antiquewhite;
+    --cor-de-cinza: rgb(57, 57, 57);
+
+    /* FONTES */
+    --fonte-chelsea: "Chelsea Market","Trebuchet MS", cursive;
+    --fonte-avenir: "Avenir", "Nunito Sans", sans-serif;
+}
+
+
+html, body{
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-de-cinza);
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.titulo {
+    margin: 2rem;
+}
+
+.titulo h1{
+    margin-block-start: 0;
+    margin-block-end: 0;
+
+    font-family: var(--fonte-chelsea);
+    font-size: 3rem;
+
+}
+
+#main-video{
+    width: 70%;
+}

@@ -1,0 +1,1 @@
+var titulo = document.getElementsByClassName("titulo")
